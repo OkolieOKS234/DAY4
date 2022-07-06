@@ -1,0 +1,63 @@
+body {
+  background: grey;
+  background-position: cover;
+}
+textarea {
+  border-radius: 20px;
+}
+h1 {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+.wordcounter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  bottom: 40%;
+  left: 40%;
+}
+span {
+  position: absolute;
+  left: 50%;
+  bottom: 40%;
+  left: 43%;
+  font-weight: bold;
+  color: red;
+}
+
+h1 {
+  position: absolute;
+  top: 20%;
+  left: 42%;
+}
+textarea:focus {
+  border: none;
+}
+.hide {
+  display: none;
+}
+@media screen and (min-width: 280px) and (max-width: 1200px) {
+  .wordcounter {
+    position: absolute;
+    bottom: 40%;
+    left: 15%;
+    width: 60%;
+  }
+
+  span {
+    position: absolute;
+    left: 50%;
+    bottom: 40%;
+    left: 20%;
+    font-weight: bold;
+    color: red;
+  }
+  h1 {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+  }
+}
